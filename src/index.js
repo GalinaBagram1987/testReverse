@@ -1,1 +1,5 @@
-export default str => str.split('').reverse().join('');
+#!/bin/bash
+const reverse = (str) => {
+    return str.split('').reverse().join('');
+};
+export default reverse;

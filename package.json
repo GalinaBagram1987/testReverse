@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "test reverse",
   "main": "index.js",
-  "type": "module", 
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/GalinaBagram1987/testReverse#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@babel/register": "^7.25.9",
     "@eslint/js": "^9.17.0",
     "eslint": "^9.17.0",
     "globals": "^15.13.0",
