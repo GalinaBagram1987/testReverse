@@ -4,7 +4,7 @@ import path from 'path';
 import { expect, test } from '@jest/globals';
 // позволяем импотировать части функции и тесты из модуля jest
 
-import reverse from '..src/index.js'
+import reverse from '../src/index.js'
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

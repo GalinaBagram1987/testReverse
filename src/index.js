@@ -1,5 +1,6 @@
 #!/bin/bash
 const reverse = (str) => {
-    return str.split('').reverse().join('');
+return str.split('').reverse().join('');
 };
 export default reverse;
+
